@@ -84,6 +84,7 @@ function Board() {
       <button className="restart" onClick={restart}>
         restart
       </button>
+      <p>{JSON.stringify(squares)}</p>
     </div>
   )
 }
